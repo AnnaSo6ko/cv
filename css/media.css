@@ -1,0 +1,22 @@
+@media (max-width : 768px) {
+    div.slide-right {
+        margin: 50px 25px 25px 25px;
+    }
+    div.otherMedia {
+        flex-direction: column;
+    }
+}
+
+@media (max-width : 480px) {
+    .container {
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    div.slide-left, div.slide-right {
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+    }
+}

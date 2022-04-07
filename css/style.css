@@ -1,0 +1,175 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.142);
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: rgb(246, 246, 246);
+    margin: 50px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.slide-left {
+    width: 40%;
+    margin: 25px 0 25px 25px;
+}
+
+.slide-left img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+img.gitImg {
+    height: 29px;
+}
+
+.name, .contact, .education, .info, h2, h4, p {
+    color: rgba(0, 0, 0, 0.668);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #00000033;
+    margin: 15px 0;
+}
+
+h2,h3 {
+    margin: 5px;
+}
+
+h4 {
+    margin: 30px 0 5px 0;
+}
+
+h4.prof {
+    font-weight: 100;
+}
+
+li {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+li img.item {
+    width: 15px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+ul {
+    padding: 0;
+}
+
+a, span {
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+}
+
+.social, .other {
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.contactAboutMe {
+    margin-top: 25px;
+}
+
+.media {
+    margin: 0 10px;
+}
+
+p, h4.m-0 {
+    margin: 0;
+}
+
+li.down {
+    display: flex;
+    flex-direction: column;
+}
+
+li.start {
+    align-items: flex-start;
+}
+
+ul.max {
+    width: 100%;
+}
+
+div.back {
+    height: 6px;
+    background-color: rgb(162, 162, 162);
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.span {
+    background-color: rgba(131, 65, 254, 0.649);
+    height: 6px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+div.spanEn {
+    width: 15%;
+}
+
+div.spanPol {
+    width: 35%;
+}
+
+div.spanGit {
+    width: 60%;
+}
+
+
+
+div.slide-right {
+    margin: 170px 25px 25px 25px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.aboutСertificate, .aboutSkills {
+    margin-top: 60px;
+    width: 100%;
+}
+
+.interests {
+    margin-top: 60px;
+}
+
+.interes {
+    width: 30px;
+    height: 30px;
+}
